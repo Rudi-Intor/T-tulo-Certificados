@@ -1,0 +1,38 @@
+body {
+	width: 95%;
+	height: 100%;
+	/*margin-left: 50px; */
+	color: #000000;
+	background: linear-gradient(-45deg,  #23A6D5, #23D5AB);
+	background-size: 100% 700%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+.titulo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificados{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#tu{ 
+    color: #00558d;
+
+}
+.posicion-certificados{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+.ti{
+    width: 480px;
+    height: 350px;
+    margin-left: 50px;
+
+}
