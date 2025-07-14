@@ -31,8 +31,19 @@ body {
    align-items: center;
 }
 .ti{
-    width: 480px;
-    height: 350px;
-    margin-left: 50px;
+    width: 40%;
+    
 
+}
+@media(max-width:450px){
+	.ti {
+		width: 80%;	 
+		
+   }
+}
+@media(max-width:450px){
+	#tu {
+		font-size: clamp(1.5rem, 5vw, 3rem);
+		
+   }
 }
